@@ -1,11 +1,17 @@
 ﻿using System.Text.Json;
 
+
+
 namespace ex3_PriceIncrement
 {
-    
+
     //  Main class to execute the program
     class Program
     {
+        /// <summary>
+        /// Constant to globally determine the price increment
+        /// </summary>
+        const double PriceIncrement = 1.15;
         static void Main()
         {
             //  Declare list uninitialized, cause if products loading fails it'll throw an exception and terminate
@@ -39,7 +45,7 @@ namespace ex3_PriceIncrement
             //  Iterate once to increment the prices (low performance, I know, but it's a practice...)
             foreach (Product product in products)
             {
-                product.Price *= 1.15;
+                product.Price *= PriceIncrement;
             }
             
             //  Iterate a second time to print all the products
