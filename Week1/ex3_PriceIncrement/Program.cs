@@ -52,7 +52,7 @@ namespace ex3_PriceIncrement
         
         public static List<Product> LoadFromJson()
         {
-            using (StreamReader r = new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex3_PriceIncrement\\Products.json"))
+            using (StreamReader r = new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex3_PriceIncrement\\products.json"))
             {
                 string json = r.ReadToEnd();
                 List<Product>? items = JsonSerializer.Deserialize<List<Product>>(json);
