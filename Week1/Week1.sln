@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex2_InputDayOfTheWeek", "ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3_PriceIncrement", "ex3_PriceIncrement\ex3_PriceIncrement.csproj", "{F4553B9D-9856-4FA7-A549-12429A8642B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex4_Championship", "ex4_Championship\ex4_Championship.csproj", "{5D425AAE-A49F-4290-A554-C97C9053F5B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F4553B9D-9856-4FA7-A549-12429A8642B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4553B9D-9856-4FA7-A549-12429A8642B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4553B9D-9856-4FA7-A549-12429A8642B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D425AAE-A49F-4290-A554-C97C9053F5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D425AAE-A49F-4290-A554-C97C9053F5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D425AAE-A49F-4290-A554-C97C9053F5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D425AAE-A49F-4290-A554-C97C9053F5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

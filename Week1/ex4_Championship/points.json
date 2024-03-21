@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Name": "Contestant number Uno",
+    "Points1": 9,
+    "Points2": 7,
+    "Points3": 8
+  },
+  {
+    "Name": "El segundo participante",
+    "Points1": 10,
+    "Points2": 10,
+    "Points3": 9
+  },
+  {
+    "Name": "The third participandito",
+    "Points1": 6,
+    "Points2": 7,
+    "Points3": 6
+  }
+]
