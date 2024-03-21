@@ -1,0 +1,14 @@
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\bin\Debug\net8.0\ex2_InputDayOfTheWeek.exe
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\bin\Debug\net8.0\ex2_InputDayOfTheWeek.deps.json
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\bin\Debug\net8.0\ex2_InputDayOfTheWeek.runtimeconfig.json
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\bin\Debug\net8.0\ex2_InputDayOfTheWeek.dll
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\bin\Debug\net8.0\ex2_InputDayOfTheWeek.pdb
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.AssemblyInfoInputs.cache
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.AssemblyInfo.cs
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.csproj.CoreCompileInputs.cache
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.dll
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\refint\ex2_InputDayOfTheWeek.dll
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.pdb
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ex2_InputDayOfTheWeek.genruntimeconfig.cache
+E:\CSharp\objectOrientedSystems\Week1\ex2_InputDayOfTheWeek\obj\Debug\net8.0\ref\ex2_InputDayOfTheWeek.dll
