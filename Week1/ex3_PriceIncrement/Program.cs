@@ -1,7 +1,5 @@
 ﻿using System.Text.Json;
 
-
-
 namespace ex3_PriceIncrement
 {
 
@@ -73,18 +71,17 @@ namespace ex3_PriceIncrement
         /// </exception>
         public static List<Product> LoadFromJson()
         {
-            using (StreamReader r = new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex3_PriceIncrement\\products.json"))
+            using StreamReader r =
+                new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex3_PriceIncrement\\products.json");
+            string json = r.ReadToEnd();
+            List<Product>? products = JsonSerializer.Deserialize<List<Product>>(json);
+            if (products == null)
             {
-                string json = r.ReadToEnd();
-                List<Product>? products = JsonSerializer.Deserialize<List<Product>>(json);
-                if (products == null)
-                {
-                    //  Exception thrown here
-                    throw new NullReferenceException();
-                }
-                //  Otherwise return the products list
-                return products;
+                //  Exception thrown here
+                throw new NullReferenceException();
             }
+            //  Otherwise return the products list
+            return products;
         }
         
     }
