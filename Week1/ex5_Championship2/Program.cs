@@ -1,21 +1,33 @@
 ﻿using System.Text.Json;
 
-namespace ex4_Championship
+namespace ex5_Championship2
 {
+    //  Small mod to the exercise. The title says 80 points but there are 3 judges rating up to 10 points,
+    // so we'll go for just 25 points
+    
+    /*
+     * 3. Modifica la salida de la resolución del punto 2. Se pide mostrar un mensaje que indique si cada participante
+     * llegó a la última etapa o no.
+     */
+    
     class Program
     {
-        
-        /*
-         * 2. En el campeonato estudiantil llegan a la última etapa los participantes que superen los 80 puntos.
-         * El algoritmo pide el nombre de cada participante y la puntuación de los 3 jurados. Debe mostrar el
-         * nombre y el puntaje total de cada participante.        Nota: cuando se ingrese "FIN" en el nombre del
-         * participante finaliza nuestro programa.
-         */
-        
         static void Main()
         {
             List<Contestant> contestants = LoadContestantsList();
-            ShowContestantPoints(contestants);
+            // ShowContestantPoints(contestants);
+            ContestantsThatPassed(contestants);
+        }
+
+        static void ContestantsThatPassed(List<Contestant> contestants)
+        {
+            foreach (Contestant contestant in contestants)
+            {
+                if (contestant.GetTotalPoints() > 25)
+                {
+                    Console.WriteLine(contestant.Name);
+                }
+            }
         }
 
         /// <summary>
@@ -75,6 +87,11 @@ namespace ex4_Championship
         public int? Points1 { get; set; }
         public int? Points2 { get; set; }
         public int? Points3 { get; set; }
+        
+        public int? GetTotalPoints()
+        {
+            return Points1 + Points2 + Points3;
+        }
 
         /// <summary>
         /// Validates that the points are between zero and 10
@@ -125,7 +142,7 @@ namespace ex4_Championship
         /// <exception cref="NullReferenceException"></exception>
         public static List<Contestant> LoadPointsFromJson()
         {
-            using StreamReader r = new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex4_Championship\\points.json");
+            using StreamReader r = new StreamReader("E:\\CSharp\\objectOrientedSystems\\Week1\\ex5_Championship2\\points.json");
             string json = r.ReadToEnd();
 
             List<Contestant>? contestants = JsonSerializer.Deserialize<List<Contestant>>(json);
