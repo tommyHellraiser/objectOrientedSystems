@@ -11,4 +11,4 @@
 ## 2024-03-25
 ### Added
 - The rest of the exercises for A2 practices
-- Week 2 exercises: Superhero fights
+- Week 2 exercise: Superhero fights
