@@ -12,3 +12,4 @@
 ### Added
 - The rest of the exercises for A2 practices
 - Week 2 exercise: Superhero fights
+- Week2Visual for visual projects
