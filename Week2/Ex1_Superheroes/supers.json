@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Deadpool",
+    "Strength": 69,
+    "Stamina": 99,
+    "Super": 3
+  },
+  {
+    "Name": "Batman",
+    "Strength": 90,
+    "Stamina": 70,
+    "Super": 30
+  },
+  {
+    "Name": "Superman",
+    "Strength": 95,
+    "Stamina": 60,
+    "Super": 70
+  }
+]
