@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InputChannel));
 			this.lblEnterChannelText = new System.Windows.Forms.Label();
 			this.txtEnterChannel = new System.Windows.Forms.TextBox();
 			this.btnOkButton = new System.Windows.Forms.Button();
@@ -71,6 +72,7 @@
 			this.Controls.Add(this.btnOkButton);
 			this.Controls.Add(this.txtEnterChannel);
 			this.Controls.Add(this.lblEnterChannelText);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "InputChannel";
 			this.Text = "InputChannel";
 			this.ResumeLayout(false);

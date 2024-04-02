@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Person));
 			this.lblOwnerName = new System.Windows.Forms.Label();
 			this.lblOwnerLastName = new System.Windows.Forms.Label();
 			this.lblOwnerAge = new System.Windows.Forms.Label();
@@ -118,6 +119,7 @@
 			this.Controls.Add(this.lblOwnerAge);
 			this.Controls.Add(this.lblOwnerLastName);
 			this.Controls.Add(this.lblOwnerName);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Person";
 			this.Text = "Owner";
 			this.ResumeLayout(false);

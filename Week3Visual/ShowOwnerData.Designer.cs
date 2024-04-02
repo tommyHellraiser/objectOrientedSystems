@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowOwnerData));
 			this.btnAddOwnerConfirm = new System.Windows.Forms.Button();
 			this.lblOwnerAge = new System.Windows.Forms.Label();
 			this.lblOwnerLastName = new System.Windows.Forms.Label();
@@ -124,6 +125,7 @@
 			this.Controls.Add(this.lblOwnerAge);
 			this.Controls.Add(this.lblOwnerLastName);
 			this.Controls.Add(this.lblOwnerName);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "ShowOwnerData";
 			this.Text = "ShowOwnerData";
 			this.ResumeLayout(false);

@@ -30,6 +30,7 @@
 		{
 			System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Hola");
 			System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Que onda");
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TVController));
 			this.btnPower = new System.Windows.Forms.Button();
 			this.btnZapChannel = new System.Windows.Forms.Button();
 			this.btnChangeChannel = new System.Windows.Forms.Button();
@@ -203,6 +204,7 @@
 			this.Controls.Add(this.btnChangeChannel);
 			this.Controls.Add(this.btnZapChannel);
 			this.Controls.Add(this.btnPower);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "TVController";
 			this.Text = "TVController";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TVController_FormClosing);

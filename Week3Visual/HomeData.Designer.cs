@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeData));
 			this.lblHomeStreetName = new System.Windows.Forms.Label();
 			this.lblHomeStreetNumber = new System.Windows.Forms.Label();
 			this.lblHomeFloorNumber = new System.Windows.Forms.Label();
@@ -281,6 +282,7 @@
 			this.Controls.Add(this.lblHomeFloorNumber);
 			this.Controls.Add(this.lblHomeStreetNumber);
 			this.Controls.Add(this.lblHomeStreetName);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "HomeData";
 			this.Text = "Input Home Data";
 			this.ResumeLayout(false);
