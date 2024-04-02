@@ -17,3 +17,7 @@
 ## 2024-03-28
 ### Added
 - Some visual projects stuff, idk
+
+## 2024-04-02
+### Added
+- Week 3 visual TV Controller App
